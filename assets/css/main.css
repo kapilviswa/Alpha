@@ -4,7 +4,7 @@
     font-weight:300;
     letter-spacing:normal
 }
-body,h1,h2,.contact-me,h3,h4,figcaption,.browser-annotations,.page-quotes .quote-source,.timeline-date{
+body,h1,h2,.contact-me,h3,h4,figcaption,.browser-annotations,.page-quotes .quote-source,.timeline-date,.nav a{
     font-family:'basic-sans', Helvetica, Arial, sans-serif;
     font-weight:400
 }
@@ -407,7 +407,7 @@ img{
     }
 }
 .header .nav a{
-    color:#83869D;
+    color:#0E86A3;
     display:block;
     position:relative
 }

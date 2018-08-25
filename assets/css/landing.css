@@ -1,0 +1,28 @@
+
+@keyframes snorkel {
+  0%   {transform: translateY(0)}
+  25%  {transform: translateY(-20px)}
+  75%  {transform: translateY(20px)}
+  100% {transform: translateY(0)}
+}
+
+
+
+#snorkel{
+  margin-right: 2em;
+  margin-top: 3em;
+  animation: snorkel 20s linear infinite;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+  height:100%;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 2000px;
+  height: 2000px;
+}
