@@ -1,12 +1,13 @@
 
+
 .text,.project-overview p{
     font-family:'livory', Georgia, Times, serif;
     font-weight:300;
     letter-spacing:normal
 }
 body,h1,h2,.contact-me,h3,h4,figcaption,.browser-annotations,.page-quotes .quote-source,.timeline-date,.nav a{
-    font-family:'basic-sans', Helvetica, Arial, sans-serif;
-    font-weight:400
+    font-family:'Maven Pro', sans-serif, Helvetica, Arial;
+    font-weight:500
 }
 ::-moz-selection{
     background-color:#62AAFF;
@@ -392,7 +393,8 @@ img{
     transition:color 0.2s ease
 }
 .header .logo{
-    float:left
+    float:left;
+    font-weight:500;
 }
 .header .nav{
     float:right
@@ -1086,7 +1088,7 @@ figure.browser-screenshot img{
     margin-top:.8rem;
     margin-bottom:0
 }
-.page-wintr-mx .wrapper-wide,.page-catnap .wrapper-wide,.page-misc .wrapper-wide{
+.page-watchOS .wrapper-wide,.page-catnap .wrapper-wide,.page-misc .wrapper-wide{
     max-width:calc(900px + (1.6rem*2))
 }
 .page-misc .text h2,.page-misc .text .contact-me{
@@ -1097,7 +1099,7 @@ figure.browser-screenshot img{
 .page-misc .content{
     padding-top:0
 }
-.page-wintr-mx .iphone{
+.page-watchOS .iphone{
     width:270px;
     margin-top:-180px;
     margin-left:auto;
@@ -1107,14 +1109,14 @@ figure.browser-screenshot img{
     z-index:5
 }
 @media only screen and (min-width: 660px){
-    .page-wintr-mx .iphone{
+    .page-watchOS .iphone{
         float:left;
         margin-left:2em;
         margin-right:2em
     }
 }
 @media only screen and (min-width: 720px){
-    .page-wintr-mx .iphone{
+    .page-watchOS .iphone{
         margin-top:-220px
     }
 }
@@ -1293,10 +1295,10 @@ ul.timeline-list li:not(:first-child):before{
 .page-mmjp .tooltip,.page-mmjp .hero-arrow:hover{
     color:#62AAFF
 }
-.page-wintr-mx .header-with-hero,.page-wintr-mx .projects-dropdown-menu a:hover{
+.page-watchOS .header-with-hero,.page-watchOS .projects-dropdown-menu a:hover{
     background:#FF5A5A
 }
-.page-wintr-mx .tooltip,.page-wintr-mx .hero-arrow:hover{
+.page-watchOS .tooltip,.page-watchOS .hero-arrow:hover{
     color:#FF5A5A
 }
 .page-catnap .header-with-hero,.page-catnap .projects-dropdown-menu a:hover{
@@ -1326,10 +1328,10 @@ ul.timeline-list li:not(:first-child):before{
 .project-preview.catnap:hover .project-button{
     color:#f6c500
 }
-.project-preview.wintr-mx{
+.project-preview.watchOS{
     background:#FF5A5A
 }
-.project-preview.wintr-mx:hover .project-button{
+.project-preview.watchOS:hover .project-button{
     color:#FF5A5A
 }
 .project-preview.misc{
