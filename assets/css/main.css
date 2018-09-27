@@ -462,20 +462,20 @@ body:not(.page-about) .header-with-hero .nav a.active:after,body:not(.page-about
     text-shadow:1px 2px 0 rgba(0,0,0,0.1)
 }
 .hero-arrow{
-    width:56px;
-    height:56px;
-    border:3px solid rgba(0,0,0,0.1);
-    color:rgba(0,0,0,0.4);
-    line-height:50px;
-    border-radius:28px;
-    text-align:center;
-    font-size:1.8em;
-    font-weight:700;
-    position:absolute;
-    top:calc(50% - 28px);
-    -webkit-transition:all 0.25s ease;
-    transition:all 0.25s ease;
-    z-index:5
+  width: 56px;
+      height: 56px;
+      border: 3px solid rgba(0,0,0,0.1);
+      color: rgba(0,0,0,0.4);
+      line-height: 50px;
+      border-radius: 28px;
+      text-align: center;
+      font-size: 1.8em;
+      font-weight: 700;
+      position: absolute;
+      top: calc(50% - 28px);
+      -webkit-transition: all 0.25s ease;
+      transition: all 0.25s ease;
+      z-index: 5;
 }
 .hero-arrow:hover{
     border-color:#fff;
@@ -1088,7 +1088,7 @@ figure.browser-screenshot img{
     margin-top:.8rem;
     margin-bottom:0
 }
-.page-watchOS .wrapper-wide,.page-catnap .wrapper-wide,.page-misc .wrapper-wide{
+.page-contrast .wrapper-wide,.page-catnap .wrapper-wide,.page-misc .wrapper-wide{
     max-width:calc(900px + (1.6rem*2))
 }
 .page-misc .text h2,.page-misc .text .contact-me{
@@ -1099,7 +1099,7 @@ figure.browser-screenshot img{
 .page-misc .content{
     padding-top:0
 }
-.page-watchOS .iphone{
+.page-contrast .iphone{
     width:270px;
     margin-top:-180px;
     margin-left:auto;
@@ -1109,14 +1109,14 @@ figure.browser-screenshot img{
     z-index:5
 }
 @media only screen and (min-width: 660px){
-    .page-watchOS .iphone{
+    .page-contrast .iphone{
         float:left;
         margin-left:2em;
         margin-right:2em
     }
 }
 @media only screen and (min-width: 720px){
-    .page-watchOS .iphone{
+    .page-contrast .iphone{
         margin-top:-220px
     }
 }
@@ -1295,11 +1295,11 @@ ul.timeline-list li:not(:first-child):before{
 .page-mmjp .tooltip,.page-mmjp .hero-arrow:hover{
     color:#62AAFF
 }
-.page-watchOS .header-with-hero,.page-watchOS .projects-dropdown-menu a:hover{
-    background:#FF5A5A
+.page-contrast .header-with-hero,.page-contrast .projects-dropdown-menu a:hover{
+    background:#B058D2
 }
-.page-watchOS .tooltip,.page-watchOS .hero-arrow:hover{
-    color:#FF5A5A
+.page-constrast .tooltip,.page-contrast .hero-arrow:hover{
+    color:#B058D2
 }
 .page-catnap .header-with-hero,.page-catnap .projects-dropdown-menu a:hover{
     background:#FFD220
@@ -1328,11 +1328,17 @@ ul.timeline-list li:not(:first-child):before{
 .project-preview.catnap:hover .project-button{
     color:#f6c500
 }
-.project-preview.watchOS{
+.project-preview.contrast{
     background:#FF5A5A
 }
-.project-preview.watchOS:hover .project-button{
+.project-preview.contrast:hover .project-button{
     color:#FF5A5A
+}
+.project-preview.contrast-black{
+    background:#000
+}
+.project-preview.contrast-black:hover .project-button{
+    color:#000
 }
 .project-preview.misc{
     background:#9A85FF
