@@ -894,7 +894,7 @@ body:not(.page-about) .header-with-hero .nav a.active:after,body:not(.page-about
     animation-delay:1.3s
 }
 .project-button{
-    background:rgba(255,255,255,0.3);
+    background:rgba(255,255,255,0.8);
     color:rgba(0,0,0,0.5);
     text-shadow:none;
     text-align:center;
@@ -1088,15 +1088,11 @@ figure.browser-screenshot img{
     margin-top:.8rem;
     margin-bottom:0
 }
-.page-contrast .wrapper-wide,.page-catnap .wrapper-wide,.page-misc .wrapper-wide{
+.page-contrast .wrapper-wide,.page-catnap .wrapper-wide,.page-colostate .wrapper-wide{
     max-width:calc(900px + (1.6rem*2))
 }
-.page-misc .text h2,.page-misc .text .contact-me{
-    text-align:center;
-    margin-top:2em;
-    margin-bottom:2em
-}
-.page-misc .content{
+
+.page-colostate .content{
     padding-top:0
 }
 .page-contrast .iphone{
@@ -1296,10 +1292,10 @@ ul.timeline-list li:not(:first-child):before{
     color:#62AAFF
 }
 .page-contrast .header-with-hero,.page-contrast .projects-dropdown-menu a:hover{
-    background:#B058D2
+    background:#D396FF
 }
 .page-constrast .tooltip,.page-contrast .hero-arrow:hover{
-    color:#B058D2
+    color:#D396FF
 }
 .page-catnap .header-with-hero,.page-catnap .projects-dropdown-menu a:hover{
     background:#FFD220
@@ -1307,11 +1303,11 @@ ul.timeline-list li:not(:first-child):before{
 .page-catnap .tooltip,.page-catnap .hero-arrow:hover{
     color:#f6c500
 }
-.page-misc .header-with-hero,.page-misc .projects-dropdown-menu a:hover{
-    background:#9A85FF
+.page-colostate .header-with-hero,.page-colostate .projects-dropdown-menu a:hover{
+    background:#C8C372
 }
-.page-misc .tooltip,.page-misc .hero-arrow:hover{
-    color:#9A85FF
+.page-colostate .tooltip,.page-colostate .hero-arrow:hover{
+    color:#C8C372
 }
 .page-about .header-with-hero{
     background:#F6F8F9
@@ -1329,10 +1325,10 @@ ul.timeline-list li:not(:first-child):before{
     color:#f6c500
 }
 .project-preview.contrast{
-    background:#FF5A5A
+    background:#D396FF
 }
 .project-preview.contrast:hover .project-button{
-    color:#FF5A5A
+    color:#D396FF
 }
 .project-preview.contrast-black{
     background:#000
@@ -1340,11 +1336,11 @@ ul.timeline-list li:not(:first-child):before{
 .project-preview.contrast-black:hover .project-button{
     color:#000
 }
-.project-preview.misc{
-    background:#9A85FF
+.project-preview.colostate{
+    background:#C8C372
 }
-.project-preview.misc:hover .project-button{
-    color:#9A85FF
+.project-preview.colostate:hover .project-button{
+    color:#C8C372
 }
 
 .header-color{

@@ -43,5 +43,16 @@ canvas {
   left: 0;
   bottom: 0;
   top: 0;
+
+}
+
+.bar-contrast{
   background: #B058D2;
+}
+.bar-colostate{
+  background: #004C23;
+
+}
+#contrast-nav{
+  color:#000;
 }
