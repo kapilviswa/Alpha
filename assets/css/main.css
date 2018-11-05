@@ -1088,11 +1088,11 @@ figure.browser-screenshot img{
     margin-top:.8rem;
     margin-bottom:0
 }
-.page-contrast .wrapper-wide,.page-catnap .wrapper-wide,.page-colostate .wrapper-wide{
+.page-contrast .wrapper-wide,.page-ford .wrapper-wide,.page-colostate .wrapper-wide{
     max-width:calc(900px + (1.6rem*2))
 }
 
-.page-colostate .content{
+.page-colostate .content, .page-ford .content,.page-contrast .content{
     padding-top:0
 }
 .page-contrast .iphone{
@@ -1309,14 +1309,20 @@ ul.timeline-list li:not(:first-child):before{
 .page-colostate .tooltip,.page-colostate .hero-arrow:hover{
     color:#C8C372
 }
+.page-ford .header-with-hero,.page-ford .projects-dropdown-menu a:hover{
+    background:#56C3E3
+}
+.page-ford .tooltip,.page-ford .hero-arrow:hover{
+    color:#56C3E3
+}
 .page-about .header-with-hero{
     background:#F6F8F9
 }
-.project-preview.mmjp{
-    background:#62AAFF
+.project-preview.ford{
+    background:#56C3E3
 }
-.project-preview.mmjp:hover .project-button{
-    color:#62AAFF
+.project-preview.ford:hover .project-button{
+    color:#56C3E3
 }
 .project-preview.catnap{
     background:#FFD220
