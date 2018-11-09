@@ -45,17 +45,19 @@ canvas {
   top: 0;
 
 }
-
+.bar-ford{
+  background: #003478;
+}
+.bar-calmanac{
+  background: #s;
+}
 .bar-contrast{
   background: #B058D2;
 }
 .bar-colostate{
   background: #004C23;
 }
-.bar-ford{
-  background: #003478;
 
-}
 #contrast-nav{
   color:#000;
 }
