@@ -54,10 +54,35 @@ canvas {
 .bar-contrast{
   background: #B058D2;
 }
+.bar-precious{
+  background: #FF5577;
+}
 .bar-colostate{
   background: #004C23;
 }
 
 #contrast-nav{
   color:#000;
+}
+
+figure.boxscreenshot img{
+    background:#E9EAF0;
+    background-image:-webkit-linear-gradient(top, #F6F8F9, #E9EAF0);
+    background-image:linear-gradient(to bottom, #F6F8F9, #E9EAF0);
+    background-repeat:no-repeat;
+    background-size:100% 40px;
+    border-radius:6px;
+    box-shadow:0 5px 20px 1px rgba(0,0,0,0.1),0 0 0 1px rgba(0,0,0,0.12),inset 0 1px 0 rgba(255,255,255,0.8);
+    z-index:2;
+    position:relative
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }

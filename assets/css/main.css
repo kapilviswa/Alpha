@@ -1293,16 +1293,16 @@ ul.timeline-list li:not(:first-child):before{
     color:#F8D755
 }
 .page-precious .header-with-hero,.page-precious .projects-dropdown-menu a:hover{
-    background:#FF6382
+    background:#FF5577
 }
 .page-precious .tooltip,.page-precious .hero-arrow:hover{
-    color:#FF6382
+    color:#FF5577
 }
 .page-contrast .header-with-hero,.page-contrast .projects-dropdown-menu a:hover{
-    background:#D396FF
+    background:#E194FF
 }
 .page-constrast .tooltip,.page-contrast .hero-arrow:hover{
-    color:#D396FF
+    color:#E194FF
 }
 .page-colostate .header-with-hero,.page-colostate .projects-dropdown-menu a:hover{
     background:#C8C372
@@ -1327,16 +1327,16 @@ ul.timeline-list li:not(:first-child):before{
     color:#F8D755
 }
 .project-preview.precious{
-    background:#FF6382
+    background:#FF5577
 }
 .project-preview.precious:hover .project-button{
-    color:#FF6382
+    color:#FF5577
 }
 .project-preview.contrast{
-    background:#D396FF
+    background:#E194FF
 }
 .project-preview.contrast:hover .project-button{
-    color:#D396FF
+    color:#E194FF
 }
 .project-preview.contrast-black{
     background:#000
