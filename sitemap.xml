@@ -1,37 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
         <url>
-    <loc>http://kyledecker.me/work</loc>
-    <lastmod>2017-08-08T07:44:40+00:00</lastmod>
+    <loc>https://kapilviswa.com/work</loc>
+    <lastmod>2018-12-30</lastmod>
     <priority>0.5</priority>
   </url>
         <url>
-    <loc>http://kyledecker.me/work/swiftype</loc>
-    <lastmod>2017-08-08T07:42:58+00:00</lastmod>
+    <loc>http://kapilviswa.com/work/precious</loc>
+    <lastmod>2018-12-30</lastmod>
     <priority>0.3</priority>
   </url>
         <url>
-    <loc>http://kyledecker.me/work/wintr-mx</loc>
-    <lastmod>2017-08-08T07:43:11+00:00</lastmod>
+    <loc>http://kapilviswa.com/work/contrast</loc>
+    <lastmod>2018-12-30</lastmod>
     <priority>0.3</priority>
   </url>
         <url>
-    <loc>http://kyledecker.me/work/catnap</loc>
-    <lastmod>2017-08-08T07:43:24+00:00</lastmod>
+    <loc>http://kapilviswa.com/work/colostate</loc>
+    <lastmod>2018-12-30</lastmod>
     <priority>0.3</priority>
   </url>
         <url>
-    <loc>http://kyledecker.me/work/misc</loc>
-    <lastmod>2017-08-08T07:44:37+00:00</lastmod>
-    <priority>0.3</priority>
-  </url>
-        <url>
-    <loc>http://kyledecker.me/about</loc>
-    <lastmod>2017-08-08T07:44:42+00:00</lastmod>
+    <loc>http://kapilviswa.com/work/about</loc>
+    <lastmod>2018-12-30</lastmod>
     <priority>0.5</priority>
   </url>
         <url>
-    <loc>http://kyledecker.me/quotes</loc>
-    <lastmod>2017-08-08T07:44:53+00:00</lastmod>
+    <loc>http://kapilviswa.com/work/timeline</loc>
+    <lastmod>2018-12-30</lastmod>
     <priority>0.5</priority>
   </url>
                                                           </urlset>
